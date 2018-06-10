@@ -21,4 +21,42 @@ class MyAgent(Agent):
     cards: list of cards in your hand
     '''
     def pass_cards(self, cards):
-        return ...
+        q = cards_you_have.count('♥')
+        if card.suit == '♠' and card.number == 12 in cards_you_have:
+            cards_you_have.pop(Card('♠',12))
+            if card.suit == '♠' and card.number == 13 in cards_you_have:
+                cards_you_have.pop(Card('♠',13))    
+            if card.suit == '♠' and card.number == 1 in cards_you_have:
+                cards_you_have.pop(Card('♠',1)) 
+            k = len(cards_you_have)
+            for i in range (k-10):
+                if 
+        else:
+            if q > 4:
+                for i in range(3):
+                    cards_you_have.pop(Card('♥',max(num))
+            else:
+                for i in range(3):
+                    j = cards_you_have.count('♥')
+                    if j > 0:
+                        cards_you_have.pop(Card('♥',max(num))                                      
+                    else :
+                        cards_you_have.pop(Card(random(suit),max(num) for suit, num in product(_suit, _number)) 
+                                       cards_you_have.pop(Card('♥',max(num))
+                    j = cards_you_have.count('♥')
+                    if j>0:
+                        continue
+                    if 
+                       
+                
+            
+            
+                    
+                cards_you_have.pop(
+        if card.suit == '♥':
+            return 1
+        elif card.suit == '♠' and card.number == 12:
+            return 13
+        else:
+            return 0
+        return 
